@@ -1,13 +1,13 @@
-###AWS Mobile Sign In With Google
+### AWS Mobile Sign In With Google
 
 This project demonstrates how to use AWS cognito to implement sign in / sign out using Google.
 
-###Create an Android project
+### Create an Android project
 1. Create an Android project.
 1. Create a signing key [instructions](https://developer.android.com/studio/publish/app-signing#generate-key)
 1. Save the key's SHA-1 ([instructions](https://stackoverflow.com/a/34223470/2427907)) for further use
 
-###Set up google sign in
+### Set up google sign in
 1. Go to [Google Cloud Console](https://console.cloud.google.com) 
 1. Create a new project
 1. Enable Google+ API
@@ -20,14 +20,14 @@ This project demonstrates how to use AWS cognito to implement sign in / sign out
         1. Enter you android package name
         1. Save the Client id to further use
         
-###Set up AWS Mobile Hub project
+### Set up AWS Mobile Hub project
 1. Go to AWS Console -> Mobile Hub
 1. Create a new project
     1. Enter a name
     1. Choose Android platform
     1. Download the Cloud Config file and store it in the following location: `<my-app>/app/src/main/res/raw/awsconfiguration.json`
     
-###Add Google Sign in to your AWS Mobile Hub project
+### Add Google Sign in to your AWS Mobile Hub project
 1. Go to your project in Mobile Hub
 1. Add User Sign In Backend
     1. Choose Google Sign In
