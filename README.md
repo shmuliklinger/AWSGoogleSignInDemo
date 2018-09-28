@@ -62,4 +62,23 @@ This project demonstrates how to use AWS cognito to implement sign in / sign out
     implementation('com.amazonaws:aws-android-sdk-auth-google:2.7.+@aar') { transitive = true }
     ```
     
-* Implement Sign In / Sign Out. [Instructions](https://docs.aws.amazon.com/aws-mobile/latest/developerguide/mobile-hub-add-aws-mobile-user-sign-in.html)  
+* Implement Sign In / Sign Out. [Instructions](https://docs.aws.amazon.com/aws-mobile/latest/developerguide/mobile-hub-add-aws-mobile-user-sign-in.html)
+
+### Add Cloud logic (AWS Api GateWay)
+#### Setup Mobile Hub project to add Cloud logic
+1. Go to your project in Mobile Hub
+1. Add Cloud Logic (this step will add AWS API Gateway, a Lambda function for handling the requests and a cloudFormation Stack)
+    1. Press on Create new API
+    1. Enter name
+    1. Choose **private**
+    1. Press on Create API (this will take a moment)
+#### Update your Android project
+1. Update the AWS cloud config file
+    1. Go back to the Mobile Hub project
+    1. Press on **Integrate**
+    1. Download the cloud config again and update your Android project with the new file
+1. Integrate the API code
+    1. Download the Android Model (from the same window as the could config file)
+    1. Extract the files and add them to your project
+    
+     

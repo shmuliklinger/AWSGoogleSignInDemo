@@ -10,9 +10,24 @@
     <Button
         android:id="@+id/signout_button"
         android:layout_width="227dp"
-        android:layout_height="94dp"
+        android:layout_height="73dp"
+        android:layout_marginBottom="48dp"
         android:text="@string/signout_button"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/get_api_button"
+        app:layout_constraintVertical_bias="0.884" />
+
+    <Button
+        android:id="@+id/get_api_button"
+        android:layout_width="210dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="104dp"
+        android:layout_marginTop="217dp"
+        android:text="@string/get_api_button"
+        app:layout_constraintBottom_toTopOf="@+id/signout_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
