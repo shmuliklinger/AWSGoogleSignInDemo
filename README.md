@@ -72,6 +72,7 @@ This project demonstrates how to use AWS cognito to implement sign in / sign out
     1. Enter name
     1. Choose **private**
     1. Press on Create API (this will take a moment)
+    
 #### Update your Android project
 1. Update the AWS cloud config file
     1. Go back to the Mobile Hub project
@@ -80,5 +81,6 @@ This project demonstrates how to use AWS cognito to implement sign in / sign out
 1. Integrate the API code
     1. Download the Android Model (from the same window as the could config file)
     1. Extract the files and add them to your project
+    1. Add android code to handle the API call [instructions](https://docs.aws.amazon.com/aws-mobile/latest/developerguide/mobile-hub-add-aws-mobile-cloud-logic.html)
     
      
